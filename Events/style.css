@@ -1,0 +1,27 @@
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: fit-content;
+    cursor: pointer;
+    padding: 5px;
+}
+#myBtn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px;
+    cursor: pointer;
+}
