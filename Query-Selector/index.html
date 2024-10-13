@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query-Selector</title>
+    <style>
+       body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+        p{
+            width: fit-content;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        h2{
+            width: fit-content;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The QuerySelector() Method</h1>
+
+    <h3>Add a background color to the first p element:</h3>
+    <p>This is a p element.</p>
+    <p>This is a p element.</p>
+
+    <p>Add a background color all elements with class="example":</p>
+    <h2 class="example">A heading</h2>
+    <p class="example">A paragraph.</p> 
+
+    <script src="app.js"></script>
+</body>
+</html>
